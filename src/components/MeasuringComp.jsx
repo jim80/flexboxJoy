@@ -16,12 +16,11 @@ const MeasuringComp = () => {
   }, []);
   return (
     <div
+      className="h-[600px] bg-red-500"
       style={{
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
-        height: "100%",
-        backgroundColor: "#fafafa",
         margin: "20px",
       }}
       ref={refContainer}
