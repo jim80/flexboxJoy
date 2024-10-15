@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="my-container">
       <div className="my-section">
-        {/* <Comp1></Comp1> */}
+        <Comp1></Comp1>
         <div className=" scrollable-content">
           <MeasuringComp></MeasuringComp>
         </div>
