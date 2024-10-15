@@ -8,7 +8,9 @@ function App() {
     <div className="my-container">
       <div className="my-section">
         {/* <Comp1></Comp1> */}
-        <MeasuringComp></MeasuringComp>
+        <div className=" scrollable-content">
+          <MeasuringComp></MeasuringComp>
+        </div>
       </div>
     </div>
   );

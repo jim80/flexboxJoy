@@ -3,11 +3,6 @@
 @tailwind utilities;
 
 :root {
-  /* absolute inset-0 flex flex-col */
-  position: Absolute;
-  inset: 0px;
-  display: flex;
-  flex-direction: column;
 
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

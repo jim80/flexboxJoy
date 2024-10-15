@@ -16,7 +16,7 @@ const MeasuringComp = () => {
   }, []);
   return (
     <div
-      className=" bg-red-500 border-solid border-2 border-black overflow-auto"
+      className=" bg-red-500 border-solid border-2 border-black"
       style={{
         display: "flex",
         flexDirection: "column",
