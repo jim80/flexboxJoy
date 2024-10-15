@@ -2,12 +2,15 @@ import MeasuringComp from "./components/MeasuringComp";
 import Comp1 from "./components/Comp1";
 import "./App.css";
 
+// see https://medium.com/@stephenbunch/how-to-make-a-scrollable-container-with-dynamic-height-using-flexbox-5914a26ae336
 function App() {
   return (
-    <>
-      <Comp1></Comp1>
-      <MeasuringComp></MeasuringComp>
-    </>
+    <div className="my-container">
+      <div className="my-section">
+        {/* <Comp1></Comp1> */}
+        <MeasuringComp></MeasuringComp>
+      </div>
+    </div>
   );
 }
 
